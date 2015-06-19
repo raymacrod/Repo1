@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		448979461B33E3D600397AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448979451B33E3D600397AF0 /* AppDelegate.swift */; };
+		448979481B33E3D600397AF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448979471B33E3D600397AF0 /* ViewController.swift */; };
+		4489794B1B33E3D600397AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448979491B33E3D600397AF0 /* Main.storyboard */; };
+		4489794D1B33E3D600397AF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4489794C1B33E3D600397AF0 /* Images.xcassets */; };
+		448979501B33E3D600397AF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4489794E1B33E3D600397AF0 /* LaunchScreen.xib */; };
+		4489795C1B33E3D600397AF0 /* T1E1RaymundoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4489795B1B33E3D600397AF0 /* T1E1RaymundoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		448979561B33E3D600397AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 448979381B33E3D600397AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4489793F1B33E3D600397AF0;
+			remoteInfo = T1E1Raymundo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		448979401B33E3D600397AF0 /* T1E1Raymundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T1E1Raymundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		448979441B33E3D600397AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448979451B33E3D600397AF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		448979471B33E3D600397AF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4489794A1B33E3D600397AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4489794C1B33E3D600397AF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4489794F1B33E3D600397AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		448979551B33E3D600397AF0 /* T1E1RaymundoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T1E1RaymundoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4489795A1B33E3D600397AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4489795B1B33E3D600397AF0 /* T1E1RaymundoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T1E1RaymundoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4489793D1B33E3D600397AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448979521B33E3D600397AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		448979371B33E3D600397AF0 = {
+			isa = PBXGroup;
+			children = (
+				448979421B33E3D600397AF0 /* T1E1Raymundo */,
+				448979581B33E3D600397AF0 /* T1E1RaymundoTests */,
+				448979411B33E3D600397AF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		448979411B33E3D600397AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				448979401B33E3D600397AF0 /* T1E1Raymundo.app */,
+				448979551B33E3D600397AF0 /* T1E1RaymundoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		448979421B33E3D600397AF0 /* T1E1Raymundo */ = {
+			isa = PBXGroup;
+			children = (
+				448979451B33E3D600397AF0 /* AppDelegate.swift */,
+				448979471B33E3D600397AF0 /* ViewController.swift */,
+				448979491B33E3D600397AF0 /* Main.storyboard */,
+				4489794C1B33E3D600397AF0 /* Images.xcassets */,
+				4489794E1B33E3D600397AF0 /* LaunchScreen.xib */,
+				448979431B33E3D600397AF0 /* Supporting Files */,
+			);
+			path = T1E1Raymundo;
+			sourceTree = "<group>";
+		};
+		448979431B33E3D600397AF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				448979441B33E3D600397AF0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		448979581B33E3D600397AF0 /* T1E1RaymundoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4489795B1B33E3D600397AF0 /* T1E1RaymundoTests.swift */,
+				448979591B33E3D600397AF0 /* Supporting Files */,
+			);
+			path = T1E1RaymundoTests;
+			sourceTree = "<group>";
+		};
+		448979591B33E3D600397AF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4489795A1B33E3D600397AF0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4489793F1B33E3D600397AF0 /* T1E1Raymundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4489795F1B33E3D600397AF0 /* Build configuration list for PBXNativeTarget "T1E1Raymundo" */;
+			buildPhases = (
+				4489793C1B33E3D600397AF0 /* Sources */,
+				4489793D1B33E3D600397AF0 /* Frameworks */,
+				4489793E1B33E3D600397AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T1E1Raymundo;
+			productName = T1E1Raymundo;
+			productReference = 448979401B33E3D600397AF0 /* T1E1Raymundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		448979541B33E3D600397AF0 /* T1E1RaymundoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448979621B33E3D600397AF0 /* Build configuration list for PBXNativeTarget "T1E1RaymundoTests" */;
+			buildPhases = (
+				448979511B33E3D600397AF0 /* Sources */,
+				448979521B33E3D600397AF0 /* Frameworks */,
+				448979531B33E3D600397AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				448979571B33E3D600397AF0 /* PBXTargetDependency */,
+			);
+			name = T1E1RaymundoTests;
+			productName = T1E1RaymundoTests;
+			productReference = 448979551B33E3D600397AF0 /* T1E1RaymundoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		448979381B33E3D600397AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Usuario;
+				TargetAttributes = {
+					4489793F1B33E3D600397AF0 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					448979541B33E3D600397AF0 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 4489793F1B33E3D600397AF0;
+					};
+				};
+			};
+			buildConfigurationList = 4489793B1B33E3D600397AF0 /* Build configuration list for PBXProject "T1E1Raymundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 448979371B33E3D600397AF0;
+			productRefGroup = 448979411B33E3D600397AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4489793F1B33E3D600397AF0 /* T1E1Raymundo */,
+				448979541B33E3D600397AF0 /* T1E1RaymundoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4489793E1B33E3D600397AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4489794B1B33E3D600397AF0 /* Main.storyboard in Resources */,
+				448979501B33E3D600397AF0 /* LaunchScreen.xib in Resources */,
+				4489794D1B33E3D600397AF0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448979531B33E3D600397AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4489793C1B33E3D600397AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448979481B33E3D600397AF0 /* ViewController.swift in Sources */,
+				448979461B33E3D600397AF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448979511B33E3D600397AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4489795C1B33E3D600397AF0 /* T1E1RaymundoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		448979571B33E3D600397AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4489793F1B33E3D600397AF0 /* T1E1Raymundo */;
+			targetProxy = 448979561B33E3D600397AF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		448979491B33E3D600397AF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4489794A1B33E3D600397AF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4489794E1B33E3D600397AF0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4489794F1B33E3D600397AF0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4489795D1B33E3D600397AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4489795E1B33E3D600397AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		448979601B33E3D600397AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = T1E1Raymundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		448979611B33E3D600397AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = T1E1Raymundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		448979631B33E3D600397AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = T1E1RaymundoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T1E1Raymundo.app/T1E1Raymundo";
+			};
+			name = Debug;
+		};
+		448979641B33E3D600397AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = T1E1RaymundoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T1E1Raymundo.app/T1E1Raymundo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4489793B1B33E3D600397AF0 /* Build configuration list for PBXProject "T1E1Raymundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4489795D1B33E3D600397AF0 /* Debug */,
+				4489795E1B33E3D600397AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4489795F1B33E3D600397AF0 /* Build configuration list for PBXNativeTarget "T1E1Raymundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448979601B33E3D600397AF0 /* Debug */,
+				448979611B33E3D600397AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		448979621B33E3D600397AF0 /* Build configuration list for PBXNativeTarget "T1E1RaymundoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448979631B33E3D600397AF0 /* Debug */,
+				448979641B33E3D600397AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 448979381B33E3D600397AF0 /* Project object */;
+}
