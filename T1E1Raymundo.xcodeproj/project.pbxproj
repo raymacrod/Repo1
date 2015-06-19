@@ -13,6 +13,7 @@
 		4489794D1B33E3D600397AF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4489794C1B33E3D600397AF0 /* Images.xcassets */; };
 		448979501B33E3D600397AF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4489794E1B33E3D600397AF0 /* LaunchScreen.xib */; };
 		4489795C1B33E3D600397AF0 /* T1E1RaymundoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4489795B1B33E3D600397AF0 /* T1E1RaymundoTests.swift */; };
+		448979661B33E50D00397AF0 /* NewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448979651B33E50D00397AF0 /* NewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		448979551B33E3D600397AF0 /* T1E1RaymundoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T1E1RaymundoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4489795A1B33E3D600397AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4489795B1B33E3D600397AF0 /* T1E1RaymundoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T1E1RaymundoTests.swift; sourceTree = "<group>"; };
+		448979651B33E50D00397AF0 /* NewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				448979451B33E3D600397AF0 /* AppDelegate.swift */,
 				448979471B33E3D600397AF0 /* ViewController.swift */,
+				448979651B33E50D00397AF0 /* NewController.swift */,
 				448979491B33E3D600397AF0 /* Main.storyboard */,
 				4489794C1B33E3D600397AF0 /* Images.xcassets */,
 				4489794E1B33E3D600397AF0 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				448979481B33E3D600397AF0 /* ViewController.swift in Sources */,
+				448979661B33E50D00397AF0 /* NewController.swift in Sources */,
 				448979461B33E3D600397AF0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
